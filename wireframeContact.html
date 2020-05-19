@@ -3,20 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="wireframe.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <script src="//code.jquery.com/jquery.min.js"></script>
     <title>Vanessa Rayyan's Portfolio</title>
 </head>
 <body>
-    <nav>Nav</nav>
-    <main>
-        <header>
-            <h1>GET IN TOUCH</h1>
-        </header>
-        <section>
-            <h2>Contact Links</h2>
-        </section>
-    </main>
-    <footer>Footer</footer>
+    <div id="page-container">
+        <div id="content-wrap">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="/Portfolio/wireframeBio.html">About</a></li>
+                    <li><a href="/Portfolio/wireframeMain.html">Projects</a></li>
+                    <li><a href="/Portfolio/wireframeContact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <header  id="contactHeader">
+                    <h1>GET IN TOUCH</h1>
+                </header>
+                <div id="contactLinks">
+                    <div>  
+                        <div class="contactBubble">
+                            <i class="far fa-envelope contactIcon"></i>
+                        </div> 
+                        <a class="social-links" href="mailto:vanessarayyan@outlook.com">Email</a>
+                    </div>
+                    <div>
+                        <div class="contactBubble">
+                            <i class="fab fa-github contactIcon"></i>
+                        </div>
+                        <a class="social-links" href="https://github.com/VanessaRayyan" target="_blank">GitHub</a>
+                    </div>
+                    <div>
+                        <div class="contactBubble">
+                            <i class="fab fa-linkedin contactIcon"></i>
+                        </div>
+                        <a class="social-links" href="https://www.linkedin.com/in/vanessa-r-bb229b1aa/" target="_blank">LinkedIn</a>
+                    </div>
+                </div>    
+            </main>
+        </div>
+        <footer id="footer"><span>© COPYRIGHT VANESSA RAYYAN 2020</span></footer>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

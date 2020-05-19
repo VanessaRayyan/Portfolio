@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="wireframe.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
     <title>Vanessa Rayyan's Portfolio</title>
 </head>
 <body>
-    <nav>Nav</nav>
-    <main>
-        <header>
-            <h1>Hero</h1>
-        </header>
-        <section>
-            <h2>Bio</h2>
-        </section>
-    </main>
-    <footer>Footer</footer>
+    <div id="page-container">
+        <div id="content-wrap">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="/Portfolio/wireframeBio.html">About</a></li>
+                    <li><a href="/Portfolio/wireframeMain.html">Projects</a></li>
+                    <li><a href="/Portfolio/wireframeContact.html">Contact</a></li>
+                </ul>
+            </nav>    
+            <main>
+                <section>
+                    <h1 id="bioHeader">Vanessa Rayyan</h1>
+                    <p id="bioParagraph">I am a web developer and recent graduate of the Web Development Track bootcamp at Bloc.
+                    <br>Since I enjoy problem solving and bringing ideas to life, coding has become a passion of mine.
+                    <br>My interests are: technology, cultures, travel, and music. 
+                    <br>I am a lifelong learner and my current project (beyond code!) is learning French.</p>
+                </section>
+            </main>
+        </div>    
+        <footer id="footer"><span>© COPYRIGHT VANESSA RAYYAN 2020</span></footer>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>

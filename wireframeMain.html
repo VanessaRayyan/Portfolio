@@ -3,20 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="wireframe.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
     <title>Vanessa Rayyan's Portfolio</title>
 </head>
 <body>
-    <nav>Nav</nav>
-    <main>
-        <header>
-            <h1>Hero</h1>
-        </header>
-        <section>
-            <h2>Projects</h2>
-        </section>
-    </main>
-    <footer>Footer</footer>
+    <div id="page-container">
+        <div id="content-wrap">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="/Portfolio/wireframeBio.html">About</a></li>
+                    <li><a href="#projectSection">Projects</a></li>
+                    <li><a href="/Portfolio/wireframeContact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <main>
+                <header id="mainHeader">
+                    <h1>Hi, I'm Vanessa.
+                    <br>I'm a Web Developer. 
+                    <br>Check out my</h1>
+                    <a class="projectsButton" href="#projectSection">Projects</a>
+                </header>
+                <div id="projectSection">
+                    
+                    <article id="projectLeftSection">
+                        <h2>Quiz App</h2>
+                        <p>This is a quiz that I created using JavaScript and JQuery. Its purpose is to test your knowledge on countries 
+                            and which continent it belongs to. You will get 4 options to choose from. It also keeps track of what question you are on
+                            and what your score is. At every submit, you will be notified whether the answer is correct or not. 
+                            At the end of the quiz, you will be shown your score and have the option to restart it.</p>
+                            <div id="projectLeftSectionLinks">
+                                <a href="https://vanessarayyan.github.io/quizApp/index">Live Page</a>
+                                <a href="https://github.com/VanessaRayyan/quizApp">GitHub Repo</a>
+                            </div>
+                        </article>
+                        
+                        <div id="projectScreenshot"><img src="/Portfolio/quizAppScreenshot.png" alt="screenshotImage"></div>
+                        
+                    </div>
+                </main>
+            </div>    
+            <footer id="footer"><span>© COPYRIGHT VANESSA RAYYAN 2020</span></footer>
+        </div>
+        <script src="index.js"></script>
 </body>
 </html>
