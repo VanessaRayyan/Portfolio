@@ -4,7 +4,7 @@
 nav {
     color: white;
     text-align: center;
-    background-color: #0abab5;
+    background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: white solid 1px;
@@ -78,7 +78,7 @@ h1 {
 .projectsButton {
     text-decoration: none;
     color: white;
-    background-color: #0abab5;
+    background-color: black;
     font-size: 25px;
     padding-right: 25px;
     padding-left: 25px;
@@ -88,7 +88,7 @@ h1 {
 }
 
 .contactBubble{
-    background-color: #0abab5; 
+    background-color: black; 
     width: min-content; 
     padding: 32px; 
     border-radius: 80px;
@@ -127,7 +127,7 @@ h1 {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #0abab5;
+    background-color: black;
     color: white;
     font-size: 12px;
     display: flex;
@@ -164,7 +164,7 @@ h1 {
     font-size: 15px;
     color: white;
     font-weight: bold;
-    background-color: #0abab5;
+    background-color: black;
     border-radius: 25px;
     padding: 10px;
 }
@@ -173,7 +173,7 @@ h1 {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 320px) {
     #projectSection {
         display: flex;
         flex-direction: column;
@@ -204,4 +204,19 @@ h1 {
         margin-right: 0;
         margin: auto;
     }
+}
+
+@media only screen and (min-width: 800px){
+    #contactLinks {
+        flex-direction: row;
+        margin-top: 100px;
+    }
+    #projectSection {
+        flex-direction: row-reverse;
+    }
+    #projectLeftSection {
+        margin: 0;
+        margin-right: 20px;
+    }
+    
 }
